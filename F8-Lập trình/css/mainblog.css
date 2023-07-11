@@ -1,0 +1,256 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+#nav-top{
+	display: inline-flex;
+	width: 100%;
+	border-bottom: 1px solid #e8ebed;
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+	z-index: 10;
+}
+.nav-logo,
+.nav-search,
+.nav-log{
+	width: 33%;
+}
+
+.nav-log a{
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+/*LOGO*/
+.nav-logo{
+	display: inline-flex;
+	margin: 15px 0px 15px 30px;
+}
+.nav-logo h5{
+	line-height: 38px;
+    margin-left: 20px;
+}
+#nav-top .nav-logo img{
+	width: 38px;
+	height: 38px;
+	border-radius: 8px;
+}
+/*SEARCH*/
+/* .nav-search{
+} */
+#nav-top .nav-logo .nav-back {
+  color: #9da4aa;
+  text-decoration: none;
+  line-height: 42px;
+  margin-left: 12px;
+  font-size: 13px;
+}
+.nav-search .search{
+	border: 2px solid #e8e8e8;
+    margin-top: 16px;
+/*    padding: 10px 0px 10px 15px;*/
+    border-radius: 20px;
+    position: relative;
+}
+.nav-search .fas{
+	position: absolute;
+	top: 15px;
+	left:17px;
+}
+.nav-search .search input{
+	border: none;
+	width: 396px;
+	height: 40px;
+	padding-left: 40px;
+    border-radius: 20px;
+}
+/*LOG-IN*/
+.nav-log{
+    line-height: 72px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    margin-right: 40px;
+}
+.nav-log button{
+	color: #fff;
+    background-color: #ff7820;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 20px;
+}
+/*END NAV_TOP*/
+
+  .container {
+    max-width: 1442px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .content {
+    flex-grow: 1;
+    margin-right: 10px;
+    margin-left: 70px;
+    
+  }
+  .news {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 25px;
+    text-decoration: none;
+    border: 2px solid  #f2f2f2;
+    margin-right: auto;
+  }
+  .khoangtrang {
+    padding-bottom: 50px;
+  }
+  .recommendation {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  .image {
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .tieude{
+    border-radius: 25px;
+    text-decoration: none;
+    border: 2px solid #ddd;
+    height: 20px;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+/* star soccial-login */
+.social-login{
+  margin-top: 165px;
+  margin-left: 50px;
+}
+.social-login span{
+  font-weight: bold;
+  font-size: 13px;
+}
+.social-login a {
+  display: inline-block;
+  padding: 9px 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #333;
+  text-align: center;  
+  width: auto; 
+  margin: 5px auto;
+  background-color: #f2f2f2;
+
+}
+.social-login img{
+  margin-top: 50px;
+  padding:9px 50px ;
+}
+/* end soccial-login */
+
+#Footer{
+	width: 100%;
+	height: 450px;
+    margin-top: 50px;
+    background-color: #181821;
+    color: #fff;
+    position: sticky;
+    padding: 20px 0px;
+
+}
+.Footer-Wrapper{
+	width: 85%;
+	height: 300px;
+	margin-left: 120px;
+	margin-top: 60px;
+}
+.Footer-Column{
+	float: left;
+}
+.Footer-Column ul,
+.Footer-Column .content{
+	list-style-type: none;
+	padding: 0px 30px 30px 30px;
+}
+.Footer-Column ul li a,
+.Footer-Column .content{
+	display: inline-block;
+	font-size: 14px;
+    color: #a9b3bb;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.Footer-Wrapper .s1,
+.Footer-Wrapper .s5{
+	width: 25%;
+}
+.Footer-Wrapper .s2,
+.Footer-Wrapper .s3,
+.Footer-Wrapper .s4{
+	width: 16%;
+}
+
+/**/
+.Footer-Column .header{
+	display: inline-flex;
+	margin: 15px 0px 15px 30px;
+}
+.Footer-Column .header h5{
+	line-height: 38px;
+    margin-left: 10px;
+    color: #fff;
+}
+.Footer-Column .header img{
+	width: 38px;
+	height: 38px;
+	border-radius: 8px;
+}
+/*Fotter-bottom*/
+.Footer-Bottom{
+	width: 1100px;
+	margin-left: 150px;
+	display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #a9b3bb;
+}
+.Footer-Bottom .link .fa-youtube-square{
+	color: red;
+}
+.Footer-Bottom .link .fa-facebook-square{
+	color: blue;
+}
+.Footer-Bottom .link .fa-tiktok{
+	color: #a9b3bb;
+}
+.Footer-Bottom .link .fa-youtube-square,
+.Footer-Bottom .link .fa-facebook-square,
+.Footer-Bottom .link .fa-tiktok{
+	margin-left: 15px;
+	font-size: 30px;
+}
+.icon{
+  padding: 0px 0px;
+  float:right;
+}
+.thu{
+  background-color: white;
+}

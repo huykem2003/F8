@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../fontawesome-pro-5.15.2/css/all.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/khoahoc.css">
+	<link rel="stylesheet" type="text/css" href="../reponsive/index-reponsive.css">
+	<link rel="stylesheet" type="text/css" href="../reponsive/khoahoc-reponsive.css">
+	<script src="../js/index-reponsive.js"></script>
+	<title></title>
+</head>
+<body>
+<div>
+	<!-- start NAV_TOP -->
+	<div id="nav-top">
+		<div class="nav-logo">
+			<a href="#">
+				<img src="../image/logomain.png">
+			</a>
+			<h5>Học Lập Trình Để Đi Làm</h5>
+		</div>
+		<!-- onclick -->
+		<i onclick="ShowMenu()" class="fas hide-reponsive menu fa-bars"></i>
+		<div class="nav-search">
+			<div class="search">
+				<i class="fas fa-search"></i>
+				<input type="" name="" placeholder="Tìm kiếm khóa học, bài viết, video,...">
+			</div>
+		</div>
+		<!-- Start ShowhideMenu -->
+		<div id="Bg-Menu"></div>
+		<div id="Menu-showhide">
+			<ul>
+				<li>
+					<a href="">Đăng nhập</a>
+					<span onclick="hideMenu()">X Đóng</span>
+				</li>
+				<hr>
+				<li>
+					<a href="./trangchu.html">Trang chủ</a>
+				</li>
+				<li>
+					<a href="./LoTrinh.html">Lộ trình</a>
+				</li>
+				<li>
+					<a href="./khoahoc.html">Khóa học</a>
+				</li>
+				<li>
+					<a href="./blog.html">Blog</a>
+				</li>
+				<hr>
+				<li>
+					<a href="">Giới thiệu</a>
+				</li>
+				<li>
+					<a href="">Cơ hội việc làm</a>
+				</li>
+			</ul>
+		</div>
+		<!-- End ShowhideMenu -->
+		<div class="nav-log">
+			<i class="fas hide-reponsive search fa-search"></i>
+			<button><a href="./dangnhap.html">Đăng nhập</a></button>
+		</div>
+	</div>
+	<!-- end NAV_TOP -->
+	<!-- start SIDE BAR -->
+	<div id="Sidebar">
+		<div class="add-blog">
+			<p>+</p>
+		</div>
+		<div class="Sidebar-List">
+			<ul>
+				<li>
+					<a href="./trangchu.html">
+						<i class="fas fa-home-alt"></i>
+						<span>Home</span>
+					</a>
+				</li>
+				<li>
+					<a href="./lotrinh.html">
+						<i class="fas fa-road"></i>
+						<span>Lộ trình</span>
+					</a>
+				</li>
+				<li style="background-color: #e8ebed;">
+					<a href="./khoahoc.html">
+						<i class="fas fa-lightbulb"></i>
+						<span>Học</span>
+					</a>
+				</li>
+				<li>
+					<a href="./blog.html">
+						<i class="fas fa-newspaper"></i>
+						<span>Blog</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- end SIDEBAR -->
+	<div id="Header-Khoahoc">
+		<h2 class="Header-Khoahoc">Khóa học</h2>
+		<p class="Slogan-Khoahoc">Các khóa học được thiết kế phù hợp cho cả người mới, nhiều khóa học miễn phí, chất lượng, nội dung dễ hiểu.</p>
+	</div>
+	<!-- start Khóa-Pro -->
+	<div id="CoursePro">
+		<h2>
+			<span class="span-h2-p">Khóa học Pro</span>
+			<span class="span-h2-new">MỚI</span>
+		</h2>
+		<div class="CoursePro-List">
+			<div class="CoursePro-Item s1">
+				<a href="">
+					<img class="CoursePro-Img" src="../image/CoursePro1.png">
+					<h4>HTML CSS PRO</h4>
+				</a>
+				<div class="CourseProIcon">
+					<img src="https://fullstack.edu.vn/static/media/crown_icon.3e4800f7485935ab6ea312a7080a85fe.svg">
+				</div>
+				<div class="Price">
+					<span class="Price-old">2.499.000đ</span>
+					<span class="Price-new">1.299.000đ</span>
+				</div>
+				<div class="Infor-Course">
+					<a href="">Xem khóa học</a>
+				</div>
+			</div>
+			<div class="CoursePro-Item s2">
+					<img class="CoursePro-Img" src="../image/CoursePro2.png">
+					<h4>JavaScrip Pro</h4>
+				<div class="CourseProIcon">
+					<img src="https://fullstack.edu.vn/static/media/crown_icon.3e4800f7485935ab6ea312a7080a85fe.svg">
+				</div>
+			</div>
+			<div class="CoursePro-Item s3">
+					<img class="CoursePro-Img" src="../image/CoursePro3.png">
+					<h4>NextJS PRO</h4>
+				<div class="CourseProIcon">
+					<img src="https://fullstack.edu.vn/static/media/crown_icon.3e4800f7485935ab6ea312a7080a85fe.svg">
+				</div>
+			</div>
+			<div class="CoursePro-Item s4">
+					<img class="CoursePro-Img" src="../image/CoursePro4.png">
+					<h4>NodeJS PRO</h4>
+				<div class="CourseProIcon">
+					<img src="https://fullstack.edu.vn/static/media/crown_icon.3e4800f7485935ab6ea312a7080a85fe.svg">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end KHOA_PRO -->
+	<!-- start KHOA-FREE -->
+	<div id="CourseFree">
+		<span style="color: #82919b;
+			font-size: 13px;">
+			325.366+ người khác đã học
+		</span>
+		<div class="Header-free">
+			<h2>Khóa học miễn phí</h2>
+			<a href="">Xem lộ trình ></a>
+		</div>
+		<div class="CourseFree-List">
+			<div class="CourseFree-Item s1">
+				<a href="./Course-NhapMonIT.html">
+					<img class="CourseFree-Img" src="../image/CourseFree1.png">
+					<h4>Kiến Thức Nhập Môn IT</h4>
+				</a>
+				<div class="CourseFreeIcon">
+					<i class="fas fa-users"></i>
+					<span>109.184</span>
+				</div>
+				<div class="Infor-Course">
+					<a href="">Xem khóa học</a>
+				</div>
+			</div>
+			<div class="CourseFree-Item s2">
+				<a href="./Course-C++.html">
+					<img class="CourseFree-Img" src="../image/CourseFree2.png">
+					<h4>Lập trình C++ cơ bản, nâng cao</h4>
+				</a>
+				<div class="CourseFreeIcon">
+					<i class="fas fa-users"></i>
+					<span>10.715</span>
+				</div>
+				<div class="Infor-Course">
+					<a href="">Xem khóa học</a>
+				</div>
+			</div>
+			<div class="CourseFree-Item s3">
+				<a href="./Course-HTML CSS base.html">
+					<img class="CourseFree-Img" src="../image/CourseFree3.png">
+					<h4>HTML CSS từ Zero đến Hero</h4>
+				</a>
+				<div class="CourseFreeIcon">
+					<i class="fas fa-users"></i>
+					<span>164.715</span>
+				</div>
+				<div class="Infor-Course">
+					<a href="">Xem khóa học</a>
+				</div>
+			</div>
+			<div class="CourseFree-Item s4">
+				<a href="./Course-Reponsive.html">
+					<img class="CourseFree-Img" src="../image/CourseFree4.png">
+					<h4>Responsive Với Grid System</h4>
+				</a>
+				<div class="CourseFreeIcon">
+					<i class="fas fa-users"></i>
+					<span>37.564</span>
+				</div>
+				<div class="Infor-Course">
+					<a href="">Xem khóa học</a>
+				</div>
+			</div>
+			<div class="CourseFree-Item s5">
+				<a href="">
+					<img class="CourseFree-Img" src="../image/CourseFree5.png">
+					<h4>Lập Trình JavaScipt Cơ Bản</h4>
+				</a>
+				<div class="CourseFreeIcon">
+					<i class="fas fa-users"></i>
+					<span>110.071</span>
+				</div>
+				<div class="Infor-Course">
+					<a href="">Xem khóa học</a>
+				</div>
+			</div>
+			<div class="CourseFree-Item s6">
+				<a href="">
+					<img class="CourseFree-Img" src="../image/CourseFree6.png">
+					<h4>Lập Trình JavaScipt Nâng Cao</h4>
+				</a>
+				<div class="CourseFreeIcon">
+					<i class="fas fa-users"></i>
+					<span>29.456</span>
+				</div>
+				<div class="Infor-Course">
+					<a href="">Xem khóa học</a>
+				</div>
+			</div>
+			<div class="CourseFree-Item s7">
+				<a href="">
+					<img class="CourseFree-Img" src="../image/CourseFree7.png">
+					<h4>Lập Trình Terminal & Ubuntu</h4>
+				</a>
+				<div class="CourseFreeIcon">
+					<i class="fas fa-users"></i>
+					<span>12.887</span>
+				</div>
+				<div class="Infor-Course">
+					<a href="">Xem khóa học</a>
+				</div>
+			</div>
+			<div class="CourseFree-Item s8">
+				<a href="">
+					<img class="CourseFree-Img" src="../image/CourseFree8.png">
+					<h4>Xây dựng Website với ReactJS</h4>
+				</a>
+				<div class="CourseFreeIcon">
+					<i class="fas fa-users"></i>
+					<span>49.046</span>
+				</div>
+				<div class="Infor-Course">
+					<a href="">Xem khóa học</a>
+				</div>
+			</div>
+			<div class="CourseFree-Item s9">
+				<a href="">
+					<img style="margin-left: 1px;" class="CourseFree-Img" src="../image/CourseFree9.png">
+					<h4>Node & ExpressJS</h4>
+				</a>
+				<div class="CourseFreeIcon">
+					<i class="fas fa-users"></i>
+					<span>49.046</span>
+				</div>
+				<div class="Infor-Course">
+					<a href="">Xem khóa học</a>
+				</div>
+			</div>
+			<div class="CourseFree-Item s10">
+				<a href="">
+					<img class="CourseFree-Img" src="../image/CourseFree10.png">
+					<h4>App "Đừng Chạm Tay Lên Mặt"</h4>
+				</a>
+				<div class="CourseFreeIcon">
+					<i class="fas fa-users"></i>
+					<span>7.861</span>
+				</div>
+				<div class="Infor-Course">
+					<a href="">Xem khóa học</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end KHOA-FREE -->
+	<!-- start suggestion Lộ trình -->
+	<div id="Suggestion">
+		<div class="Header-Sug">
+			<h2 class="Title-Sug">
+				Bạn đang tìm kiếm lộ trình học cho người mới?
+			</h2>
+			<p>Các khóa học được thiết kế phù hợp cho người mới, lộ trình học rõ ràng, nội dung dễ hiểu.</p>
+			<a href="">
+				Xem lộ trình
+			</a>
+		</div>
+		<div class="Img-Khoahoc">
+			<img src="../image/Khoahoc.png">
+		</div>
+	</div>
+	<!-- end suggestion Lộ trình  -->
+</div>
+	<!-- start FOOTER -->
+	<div id="Footer">
+		<div class="Footer-Wrapper">
+			<div class="Footer-Column s1">
+				<div class="header">
+					<img src="../image/logomain.png">
+					<h5>Học Lập Trình Để Đi Làm</h5>
+				</div>
+				<div style="line-height:20px" class="content">
+					Điện thoại:0123456789
+					<br>
+					Email:contact@fullstack.edu.vn
+					<br>
+					Địa chỉ:Số 26 Dương Đình Nghệ, Phường Yên Hòa, Quận Cầu Giấy, TP.Hà Nội
+				</div>
+			</div>
+			<div class="Footer-Column s2">
+				<h3 class="header">Về F8</h3>
+				<ul>
+					<li><a href="">Giới thiệu</a></li>
+					<li><a href="">Liên Hệ</a></li>
+					<li><a href="">Điều khoản</a></li>
+					<li><a href="">Bảo mật</a></li>
+					<li><a href="">Cơ hội việc làm</a></li>
+				</ul>
+			</div>
+			<div class="Footer-Column s3">
+				<h3 class="header">SẢN PHẨM</h3>
+				<ul>
+					<li><a href="">Game Nester</a></li>
+					<li><a href="">Game CSS Diner</a></li>
+					<li><a href="">Game CSS Selectors</a></li>
+					<li><a href="">Game Froggy</a></li>
+					<li><a href="">Game Froggy Pro</a></li>
+					<li><a href="">Game Scoops</a></li>
+				</ul>
+			</div>
+			<div class="Footer-Column s4">
+				<h3 class="header">
+					CÔNG CỤ
+				</h3>
+				<ul>
+					<li><a href="">Tạo CV xin việc</a></li>
+					<li><a href="">Rút gọn liên kết</a></li>
+					<li><a href="">Clip-path maker</a></li>
+					<li><a href="">Snippet generator</a></li>
+					<li><a href="">Cảnh báo sờ tay lên mặt</a></li>
+				</ul>
+			</div>
+			<div class="Footer-Column s5">
+				<h3 class="header">
+					CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8
+				</h3>
+				<div class="content" style="line-height:22px">
+					Mã số thuế:0109922901
+					<br>
+					Ngày thành lập:04/03/2022
+					<br>
+					Lĩnh vực:Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá trị cho cộng đồng
+				</div>
+			</div>
+		</div>
+		<div class="Footer-Bottom">
+			<p>&#169; 2018 - 2023 F8. Nền tảng học lập trình hàng đầu Việt Nam</p>
+			<div class="link">
+				<a href="">
+					<i class="fab fa-youtube-square fa-lg"></i>
+				</a>
+				<a href="">
+					<i class="fab fa-facebook-square fa-lg"></i>
+				</a>
+				<a href="">
+					<i class="fab fa-tiktok fa-lg"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- end Footer -->
+</body>
+</html>

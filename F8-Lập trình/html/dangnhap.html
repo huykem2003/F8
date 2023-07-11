@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../css/maindangnhap.css">
+  <link rel="stylesheet" type="text/css" href="../fontawesome-pro-5.15.2/css/all.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="../image/logomain.png">
+  <link rel="stylesheet" type="text/css" href="../css/dangnhap.css">
+  <title>Đăng nhập vào f8|f8</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <!-- container -->
+  <div class="container">
+    <a href="./trangchu.html">
+      <img style=" border-radius: 10px;" src="../image/logomain.png"  alt="Logo" class="logo">
+  </a>
+    <h1>Đăng nhập vào F8</h1>
+    <form id="Form-login">
+            <div class="form-group">
+                <input type="text" id="username" class="form-input" placeholder="Tên tài khoản ">
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" class="form-input" placeholder="Mật khẩu ">
+            </div>
+
+            <div id="Log-In"></div>
+            <input type="submit" id="submit" value="Đăng nhập" class="form-submit">
+            <div class="link">
+                Không có tài khoản ? <a href="./dangky.html">Đăng ký ngay</a>
+            </div>
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+  document.getElementById("Form-login").addEventListener("submit", function(event) {
+  event.preventDefault(); // Ngăn chặn việc gửi form
+
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+
+  // Kiểm tra thông tin đăng nhập
+  if (username === "admin" && password === "123456") {
+    alert("Đăng nhập thành công!");
+    // Chuyển đến trang chủ
+    window.location.href = "trangchu-dangnhap.html";
+  } else {
+    alert("Thông tin đăng nhập không chính xác. Vui lòng thử lại!");
+    // Xử lý lỗi hoặc hiển thị thông báo lỗi cho người dùng
+  }
+});
+</script>

@@ -1,0 +1,169 @@
+#nav-top .hide-reponsive{
+	display: none;
+	cursor: pointer;
+}
+
+#Bg-Menu{
+	position: fixed;
+    z-index: 20;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: #4b4b49;
+    width: 100%;
+    height: 100%;
+}
+#Menu-showhide{
+	display: none;
+	position: fixed;
+    z-index: 30;
+    width: 650px;
+    height: 686px;
+    background-color: #fff;
+    overflow: auto;
+}
+#Menu-showhide hr{
+	opacity: 0.3;
+}
+#Menu-showhide ul{
+	list-style-type: none;
+	padding: 50px 0 0 20px;
+	line-height: 60px;
+}
+#Menu-showhide ul a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	margin-left: 20px;
+}
+#Menu-showhide ul span{
+	border: 1px solid;
+    padding: 5px 15px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 740px) {
+	#nav-top{
+        width: 726px;
+        height: 60px;
+        transition: transform 0.5s ease;
+        display: flex;
+        justify-content: space-between;
+    }
+    #nav-top .nav-logo{
+    	display: none;
+    }
+    #nav-top .nav-search{
+    	display: none;
+    }
+    #nav-top .hide-reponsive{
+    	display: block;
+    	margin-right: 30px;
+    	font-size: 20px;
+    }
+    #nav-top .hide-reponsive.menu{
+    	margin: 20px 0 0 25px;
+
+    }
+    #Sidebar{
+    	display: none;
+    }
+    .Slideshow{
+    	width: 700px;
+    	height: 270px;
+    	margin-left: 20px;
+    }
+    .Slideshow .Slideshow-Right{
+    	display: none;
+    }
+    #CoursePro{
+    	width: 700px;
+	    margin-left: 20px;
+	}
+	#CoursePro .CoursePro-List{
+		width: 710px;
+		overflow: auto;
+	}
+	#CourseFree{
+		width: 700px;
+	    /*height: 770px;*/
+	    margin-left: 20px;
+	    margin-top: 50px;
+	    overflow: auto;
+	}
+	#CourseFree .CourseFree-List{
+		width: 700px;
+		display: flex;
+		overflow: auto;
+	}
+	#Post{
+		width: 700px;
+	    /*height: 530px;*/
+	    margin-left: 20px;
+	    margin-top: -425px;
+	}
+	#Post .Post-List{
+		width: 700px;
+		display: flex;
+		overflow: auto;
+	}
+	#Videos{
+		width: 700px;
+	    margin-left: 20px;
+	    margin-top: -225px;
+	}
+	#Videos .Videos-List{
+		width: 700px;
+		display: flex;
+		overflow: auto;
+	}
+
+	.Header-free h2,
+	.Header-post h2,
+	.Header-Videos h2{
+			width: 80%;
+		}
+	/*Footer*/
+	#Footer{
+		margin-top: -200px;
+		height: 100%;
+	}
+	.Footer-Wrapper{
+		width: 700px;
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	.Footer-Column.s1,
+	.Footer-Column.s2,
+	.Footer-Column.s3,
+	.Footer-Column.s4,
+	.Footer-Column.s5{
+		width: 710px;
+	}
+
+
+	.Footer-Bottom{
+		width: 700px;
+		margin-left: 0;
+
+	}
+
+
+
+
+
+
+
+
+
+
+	#My-Course{
+		display: none;
+	}
+	#Avatar{
+		display: none;
+	}
+}

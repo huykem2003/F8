@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../fontawesome-pro-5.15.2/css/all.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/khoahoc.css">
+	<link rel="stylesheet" type="text/css" href="../css/Course-Infor.css">
+	<link rel="stylesheet" type="text/css" href="../reponsive/index-reponsive.css">
+	<link rel="stylesheet" type="text/css" href="../reponsive/Course-reponsive.css">
+	<script src="../js/Course.js"></script>
+	<title>
+		HTML CSS
+	</title>
+</head>
+<body>
+<div>
+	<!-- start NAV_TOP -->
+	<div id="nav-top">
+		<div class="nav-logo">
+			<a class="nav-img" href="#">
+				<img src="../image/logomain.png">
+			</a>
+			<a class="nav-back" href="./trangchu.html">&#60; QUAY LẠI</a>
+		</div>
+		<div class="nav-search">
+			<div class="search">
+				<i class="fas fa-search"></i>
+				<input type="" name="" placeholder="Tìm kiếm khóa học, bài viết, video,...">
+			</div>
+		</div>
+		<div class="nav-log">
+			<button><a href="./dangnhap.html">Đăng nhập</a></button>
+		</div>
+	</div>
+	<!-- end NAV_TOP -->
+	<!-- start SIDE BAR -->
+	<div id="Sidebar">
+		<div class="add-blog">
+			<p>+</p>
+		</div>
+		<div class="Sidebar-List">
+			<ul>
+				<li>
+					<a href="trangchu.html">
+						<i class="fas fa-home-alt"></i>
+						<span>Home</span>
+					</a>
+				</li>
+				<li>
+					<a href="./LoTrinh.html">
+						<i class="fas fa-road"></i>
+						<span>Lộ trình</span>
+					</a>
+				</li>
+				<li style="background-color: #e8ebed;">
+					<a href="./khoahoc.html">
+						<i class="fas fa-lightbulb"></i>
+						<span>Học</span>
+					</a>
+				</li>
+				<li>
+					<a href="./blog.html">
+						<i class="fas fa-newspaper"></i>
+						<span>Blog</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- end SIDEBAR -->
+	<!-- Start Content -->
+	<div id="Content-Course">
+		<div class="Content-Course-Left">
+			<div class="Header">
+				<h1>HTML CSS từ Zero đến Hero</h1>
+				<p>Trong khóa này chúng ta sẽ cùng nhau xây dựng giao diện 2 trang web là The Band & Shopee.</p>
+			</div>
+			<div class="Receive">
+				<h3>Bạn sẽ học được gì?</h3>
+				<div>
+					<section>
+						<ul>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Biết cách xây dựng giao diện web với HTML, CSS</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Biết cách phân tích giao diện website</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Biết cách đặt tên class CSS theo chuẩn BEM</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Biết cách làm giao diện web responsive</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Làm chủ Flexbox khi dựng bố cục website</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Sở hữu 2 giao diện web khi học xong khóa học</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Biết cách tự tạo động lực cho bản thân</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Biết cách tự học những kiến thức mới</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Học được cách làm UI chỉn chu, kỹ tính</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Nhận chứng chỉ khóa học do F8 cấp</span>
+							</li>
+						</ul>
+					</section>
+				</div>
+				<div class="Link-Pro">
+					<i class="fas fa-check"></i>
+					<a href="./Course-HTML CSS base.html#base">Xem các khóa học khác có thể là sự lựa chọn thay thế cho khóa học này</a>
+				</div>
+			</div>
+			<div id="Infor-Content-Course" class="Infor-Content-Course">
+				<div class="Header">
+					<h3>Nội dung khóa học</h3>
+					<div class="Time-List">
+						<ul>
+							<li><span>11</span> chương
+							</li>
+							<li style="padding: 0px 8px;">&#8226;</li>
+							<li>
+								<span>138</span> bài học
+							</li>
+							<li style="padding: 0px 8px;">&#8226;</li>
+							<li>
+								Thời lượng <span>10 giờ 29 phút</span>
+							</li>
+						</ul>
+						<div class="Button-Extend">
+						<span onclick="showModuleAll()" id="extend">Mở rộng tất cả</span>
+						<span onclick="hideModuleAll()" id="zoomout">Thu nhỏ tất cả</span>
+						</div>
+					</div>
+				</div>
+				<div class="Module">
+					<div class="Module-Course">
+						<div onclick="showhideModule('khoahoc1'); abc();" id="Module-Title" class="Module-Title">
+							<h4>1. Bắt đầu</h4>
+							<i class="fas fa-chevron-down"></i>
+							<span>5 bài học</span>
+						</div>
+						<div id="khoahoc1" class="Module-Content">
+							<div>
+								<span>1. Bạn sẽ làm được gì sau khóa học?</span>
+								<i class="fas fa-play"></i>
+								<span>03:15</span>
+							</div>
+							<div>
+								<span>2. Tìm hiểu về HTML CSS</span>
+								<i class="fas fa-play"></i>
+								<span>02:29</span>
+							</div>
+							<div>
+								<span>3. Làm quen với Dev tools</span>
+								<i class="fas fa-play"></i>
+								<span>03:55</span>
+							</div>
+							<div>
+								<span>4. Cài đặt VS Code, Page Ruler extension</span>
+								<i class="fas fa-play"></i>
+								<span>02:57</span>
+							</div>
+						</div>
+					</div>
+					<div class="Module-Course">
+						<div onclick="showhideModule('khoahoc2'); abc();" class="Module-Title">
+							<h4>2. Làm quen với HTML</h4>
+							<i class="fas fa-chevron-down"></i>
+							<span>13 bài học</span>
+						</div>
+						<div id="khoahoc2" class="Module-Content">
+							<div>
+								<span>7. Cấu trúc của 1 file HTML</span>
+								<i class="fas fa-play"></i>
+								<span>06:20</span>
+							</div>
+							<div>
+								<span>8. Làm quen với màn thử thách</span>
+								<i class="fas file-text fa-file-alt"></i>
+								<span>01:00</span>
+							</div>
+							<div>
+								<span>9. Ví dụ cấu trúc file HTML</span>
+								<i class="fas pen fa-pen"></i>
+								<span>01:09</span>
+							</div>
+							<div>
+								<span>10. Comments trong HTML</span>
+								<i class="fas fa-play"></i>
+								<span>02:12</span>
+							</div>
+							<div>
+								<span>11. Ví dụ cấu comments file HTML</span>
+								<i class="fas pen fa-pen"></i>
+								<span>01:09</span>
+							</div>
+							<div>
+								<span>12. Các thẻ HTML thông dụng</span>
+								<i class="fas fa-play"></i>
+								<span>11:08</span>
+							</div>
+						</div>
+					</div>
+					<div class="Module-Course">
+						<div onclick="showhideModule('khoahoc3'); abc();" class="Module-Title">
+							<h4>3. Làm quen với CSS</h4>
+							<i class="fas fa-chevron-down"></i>
+							<span>29 bài học</span>
+						</div>
+						<div id="khoahoc3" class="Module-Content">
+							<div>
+								<span>20. Sử dụng CSS trong HTML</span>
+								<i class="fas fa-play"></i>
+								<span>07:13</span>
+							</div>
+							<div>
+								<span>21. Thực hành sử dụng CSS intenal</span>
+								<i class="fas pen fa-pen"></i>
+								<span>04:00</span>
+							</div>
+							<div>
+								<span>22. ID và Class</span>
+								<i class="fas fa-play"></i>
+								<span>04:18</span>
+							</div>
+							<div>
+								<span>23. Thực hành sử dụng CSS extenal</span>
+								<i class="fas pen fa-pen"></i>
+								<span>03:16</span>
+							</div>
+						</div>
+					</div>
+					<div class="Module-Course">
+						<div onclick="showhideModule('khoahoc4'); abc();" class="Module-Title">
+							<h4>4. Đệm, viền và khoảng lề</h4>
+							<i class="fas fa-chevron-down"></i>
+							<span>9 bài học</span>
+						</div>
+						<div id="khoahoc4" class="Module-Content">
+							<div>
+								<span>49. Thuộc tính padding</span>
+								<i class="fas fa-play"></i>
+								<span>06:20</span>
+							</div>
+							<div>
+								<span>50. Thực hành sử dụng padding #1</span>
+								<i class="fas pen fa-pen"></i>
+								<span>01:30</span>
+							</div>
+							<div>
+								<span>51. Thực hành sử dụng padding #2</span>
+								<i class="fas pen fa-pen"></i>
+								<span>01:57</span>
+							</div>
+							<div>
+								<span>52. Thuộc tính border</span>
+								<i class="fas fa-play"></i>
+								<span>06:20</span>
+							</div>
+							<div>
+								<span>53. Thực hành sử dụng border #1</span>
+								<i class="fas pen fa-pen"></i>
+								<span>01:30</span>
+							</div>
+						</div>
+					</div>
+					<div class="Module-Course">
+						<div onclick="showhideModule('khoahoc5'); abc();" class="Module-Title">
+							<h4>5. Thuộc tính tạo nền</h4>
+							<i class="fas fa-chevron-down"></i>
+							<span>11 bài học</span>
+						</div>
+						<div id="khoahoc5" class="Module-Content">
+							<div>
+								<span>58. Thuộc tính backgound-image</span>
+								<i class="fas fa-play"></i>
+								<span>12:47</span>
+							</div>
+							<div>
+								<span>59. Sử dụng thuộc tính background-image</span>
+								<i class="fas pen fa-pen"></i>
+								<span>03:30</span>
+							</div>
+							<div>
+								<span>60. Thuộc tính backgound-size với cover,contain</span>
+								<i class="fas fa-play"></i>
+								<span>03:17</span>
+							</div>
+							<div>
+								<span>61. Sử dụng thuộc tính background-size</span>
+								<i class="fas pen fa-pen"></i>
+								<span>01:14</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="Request">
+					<h3>Yêu cầu</h3>
+					<div>
+						<section>
+						<ul>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Máy vi tính kết nối internet (Windows, Ubuntu hoặc MacOS)</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Ý thức tự học cao, trách nhiệm cao, kiên trì bền bỉ không ngại cái khó</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Không được nóng vội, bình tĩnh học, làm bài tập sau mỗi bài học</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Khi học nếu có khúc mắc hãy tham gia hỏi/đáp tại group FB: Học lập trình web (fullstack.edu.vn)</span>
+							</li>
+							<li>
+								<i class="fas fa-check"></i>
+								<span>Bạn không cần biết gì hơn nữa, trong khóa học tôi sẽ chỉ cho bạn những gì bạn cần phải biết</span>
+							</li>
+						</ul>
+					</section>
+					</div>
+					<div class="Intro">
+						<h3>Khóa học liên quan</h3>
+						<div class="Intro-Item">
+							<a id="base" class="Intro-Link" href="">
+							<img class="Course-Intro" src="../image/CoursePro1.png">
+							</a>
+							<div class="Course-Intro-Icon">
+								<img src="https://fullstack.edu.vn/static/media/crown_icon.3e4800f7485935ab6ea312a7080a85fe.svg">
+							</div>
+							<div class="Infor-Intro">
+								<a class="Name-Intro" href="">HTML CSS Pro</a>
+								<div class="Price-Intro">
+									<span class="Price-old">2.499.000đ</span>
+									<span class="Price-new">1.299.000đ</span>
+								</div>
+								<p>Từ cơ bản tới chuyên sâu, thực hành 8 dự án, hàng trăm bài tập, trang hỏi đáp riêng, cấp chứng chỉ sau khóa học và mua một lần học mãi mãi.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+
+		<!-- Content-Right -->
+		<div>
+		<div class="Content-Course-Right">
+			<div style="cursor: pointer;" onclick="showVideo()" id="Course-Item-Video">
+				<div class="Course-Item">
+						<img class="Course-Img" src="../image/CourseFree3.png">
+				</div>
+				<div class="Video-Play">
+					<i class="fas fa-play-circle"></i>
+					<p>Xem giới thiệu khóa học</p>
+				</div>
+			</div>
+			<div class="Review-Course">
+				<h1>Miễn phí</h1>
+				<a href="">
+					ĐĂNG KÝ HỌC
+				</a>
+				<div class="Review">
+					<ul>
+						<li>
+							<i class="fas fa-circle"></i>
+								&#160;	&#160;
+							<p>Trình độ cơ bản</p>
+						</li>
+						<li>
+							<i class="fas fa-film"></i>
+								&#160;	&#160;
+							<p>Tổng số <span>167 </span>bài học</p>
+						</li>
+						<li>
+							<i class="fas fa-clock"></i>
+								&#160;	&#160;
+							<p>Thời lượng <span>30 giờ 41 phút</span></p>
+						</li>
+						<li>
+							<i class="fas fa-battery-full"></i>
+								&#160;	&#160;
+							<p>Học mọi lúc mọi nơi</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--  -->
+	</div>
+	<!-- end Content -->
+</div>
+	<!-- start FOOTER -->
+	<div id="Footer">
+		<div class="Footer-Wrapper">
+			<div class="Footer-Column s1">
+				<div class="header">
+					<img src="../image/logomain.png">
+					<h5>Học Lập Trình Để Đi Làm</h5>
+				</div>
+				<div style="line-height:20px" class="content">
+					Điện thoại:0123456789
+					<br>
+					Email:contact@fullstack.edu.vn
+					<br>
+					Địa chỉ:Số 26 Dương Đình Nghệ, Phường Yên Hòa, Quận Cầu Giấy, TP.Hà Nội
+				</div>
+			</div>
+			<div class="Footer-Column s2">
+				<h3 class="header">Về F8</h3>
+				<ul>
+					<li><a href="">Giới thiệu</a></li>
+					<li><a href="">Liên Hệ</a></li>
+					<li><a href="">Điều khoản</a></li>
+					<li><a href="">Bảo mật</a></li>
+					<li><a href="">Cơ hội việc làm</a></li>
+				</ul>
+			</div>
+			<div class="Footer-Column s3">
+				<h3 class="header">SẢN PHẨM</h3>
+				<ul>
+					<li><a href="">Game Nester</a></li>
+					<li><a href="">Game CSS Diner</a></li>
+					<li><a href="">Game CSS Selectors</a></li>
+					<li><a href="">Game Froggy</a></li>
+					<li><a href="">Game Froggy Pro</a></li>
+					<li><a href="">Game Scoops</a></li>
+				</ul>
+			</div>
+			<div class="Footer-Column s4">
+				<h3 class="header">
+					CÔNG CỤ
+				</h3>
+				<ul>
+					<li><a href="">Tạo CV xin việc</a></li>
+					<li><a href="">Rút gọn liên kết</a></li>
+					<li><a href="">Clip-path maker</a></li>
+					<li><a href="">Snippet generator</a></li>
+					<li><a href="">Cảnh báo sờ tay lên mặt</a></li>
+				</ul>
+			</div>
+			<div class="Footer-Column s5">
+				<h3 class="header">
+					CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC F8
+				</h3>
+				<div class="content" style="line-height:22px">
+					Mã số thuế:0109922901
+					<br>
+					Ngày thành lập:04/03/2022
+					<br>
+					Lĩnh vực:Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá trị cho cộng đồng
+				</div>
+			</div>
+		</div>
+		<div class="Footer-Bottom">
+			<p>&#169; 2018 - 2023 F8. Nền tảng học lập trình hàng đầu Việt Nam</p>
+			<div class="link">
+				<a href="">
+					<i class="fab fa-youtube-square fa-lg"></i>
+				</a>
+				<a href="">
+					<i class="fab fa-facebook-square fa-lg"></i>
+				</a>
+				<a href="">
+					<i class="fab fa-tiktok fa-lg"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- end Footer -->
+	<!-- start show hide Video -->
+	<div id="Bg-Container-Video"> &#160;
+	</div>
+	<div id="Video-Youtube">
+		<div class="Video-Bg">
+    		<div>
+	    		<p class="gioithieu">
+						<span>Giới thiệu khóa học</span>
+						<span onclick="hideVideo()">
+							<i style="cursor: pointer;
+									font-size: 23px;" class="fal fa-times"></i>
+						</span>
+				</p>
+				<h3>Kiến thức nhập môn IT</h3>
+			</div>
+			<div>
+				<video id="Video" src="../video/HTML CSS.mp4" width="857px" height="482px" controls=""></video>
+			</div>
+		</div>
+	</div>
+	<!-- end show hide Video -->
+</body>
+</html>
+<style type="text/css">
+		.Link-Pro{
+			display: flex;
+			border: 1px solid #ff5f19;
+			border-radius: 10px;
+			padding: 20px 0px 20px 20px;
+			width: 600px;
+			font-size: 14px;
+			font-style: italic;
+			font-weight: 600;
+			margin-top: 30px;
+		}
+		.Link-Pro .fas{
+			background-color: #22caaf;
+			width: 18px;
+			height: 18px;
+			border-radius: 50%;
+			font-size: 9px;
+			text-align: center;
+			line-height: 18px;
+			color: #fff;
+			margin-right: 15px;
+			}
+			.Link-Pro a{
+				color: #ff5f19;
+			}
+
+		/*Yêu cầu*/
+		.Intro{
+			margin-top: 40px;
+		}
+		.Infor-Intro p{
+		font-size: 13px;
+    	width: 150px;
+    	height: 32px;
+    	overflow: hidden;
+    	-webkit-box-orient: vertical;
+    	-webkit-line-clamp: 2;
+    	display: -webkit-box;
+		}
+		.Intro-Item{
+			position: relative;
+			display: flex;
+		}
+		.Intro-Item .intro-Link{
+			text-decoration: none;
+	    	display: block;
+	    	height: 200px;
+		}
+		.Price-Intro .Price-old{
+			text-decoration: line-through;
+	    	font-size: 12px;
+		}
+		.Price-Intro .Price-new{
+			color: #ce5c00;
+	    	font-size: 14px;
+		}
+		.Intro-Item .Course-Intro{
+			width: 126px;
+	    	height: 71px;
+	    	border-radius: 10px;
+	    	margin-top: 20px;
+	    	margin-bottom: 10px;
+	    	margin-right: 20px;
+		}
+		.Name-Intro{
+			margin-top: 27px;
+	    	font-size: 14px;
+	    	color: black;
+	    	text-decoration: none;
+	    	display: block;
+		}
+		.Course-Intro-Icon{
+			width: 21px;
+	    	background-color: rgba(0,0,0,.3);
+	    	border-radius: 7px;
+	    	position: absolute;
+	    	top: 32px;
+	    	left: 15px;
+		}
+		.Course-Intro-Icon img{
+			width: 11px;
+	    	height: 12px;
+	    	margin-left: 5px;
+	    	margin-top: 2px;
+		}
+		.Request{
+			margin-top: 50px;
+		}
+		.Request ul{
+			list-style-type: none;
+	    	padding: 0;
+	    	display: flex;
+	   		flex-wrap: wrap;
+	    	margin-top: 15px;
+		}
+		.Request li{
+	    	float: left;
+	    	font-size: 13px;
+	    	padding: 0px 24px 12px 24px;
+	    	margin-bottom: 10px;
+	    	position: relative;
+		}
+		.Request li .fas{
+			position: absolute;
+	    	left: 0;
+	    	top: 0;
+	    	color: #ff681c;
+		}
+	</style>

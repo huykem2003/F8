@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../css/maindangnhap.css">
+  <link rel="stylesheet" type="text/css" href="../fontawesome-pro-5.15.2/css/all.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="../image/logomain.png">
+  <link rel="stylesheet" type="text/css" href="../css/dangnhap.css">
+  <title>Đăng ký vào f8|f8</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <!-- container -->
+  <div class="container">
+    <a href="./trangchu.html">
+      <img style=" border-radius: 10px;" src="../image/logomain.png"  alt="Logo" class="logo">
+  </a>
+    <h1>Đăng ký tài khoản</h1>
+    <form id="Form-register">
+            <div class="form-group">
+                <input type="text" id="username" class="form-input" placeholder="Tên tài khoản ">
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" class="form-input" placeholder="Mật khẩu ">
+            </div>
+
+            <div id="Log-In"></div>
+            <input type="submit" id="submit" value="Đăng Ký" class="form-submit">
+            <div class="link">
+                Đã có tài khoản ? <a href="./dangnhap.html">Đăng nhập ngay</a>
+            </div>
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+
+
+document.getElementById("Form-register").addEventListener("submit", function(event) {
+  event.preventDefault(); // Ngăn chặn việc gửi form
+
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+
+  if (username && password) {
+    alert("Đăng ký thành công!");
+    window.location.href = "dangnhap.html";
+  } else {
+    alert("Vui lòng điền đầy đủ thông tin đăng ký!");
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   document.getElementById("Form-login").addEventListener("submit", function(event) {
+//   event.preventDefault();
+
+//   var username = document.getElementById("username").value;
+//   var password = document.getElementById("password").value;
+
+
+//   if (username.innerHTML === "" && password.innerHTML === "") {
+//     alert("Đăng ký thành công!");
+
+//     window.location.href = "trangchu-dangnhap.html";
+//   } else {
+//     alert("Vui lòng nhập thông tin đăng ký");
+//   }
+// });
+</script>
