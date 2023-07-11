@@ -37,19 +37,15 @@
 
 <script type="text/javascript">
   document.getElementById("Form-login").addEventListener("submit", function(event) {
-  event.preventDefault(); // Ngăn chặn việc gửi form
-
+  event.preventDefault();
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
 
-  // Kiểm tra thông tin đăng nhập
   if (username === "admin" && password === "123456") {
     alert("Đăng nhập thành công!");
-    // Chuyển đến trang chủ
     window.location.href = "trangchu-dangnhap.html";
   } else {
     alert("Thông tin đăng nhập không chính xác. Vui lòng thử lại!");
-    // Xử lý lỗi hoặc hiển thị thông báo lỗi cho người dùng
   }
 });
 </script>

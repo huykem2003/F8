@@ -5,6 +5,7 @@
   <link rel="stylesheet" type="text/css" href="../fontawesome-pro-5.15.2/css/all.css">
   <link rel="icon" type="image/png" sizes="32x32" href="../image/logomain.png">
   <link rel="stylesheet" type="text/css" href="../css/dangnhap.css">
+  <script src="../js/dangki.js"></script>
   <title>Đăng ký vào f8|f8</title>
   <meta charset="utf-8">
 </head>
@@ -39,7 +40,7 @@
 
 
 document.getElementById("Form-register").addEventListener("submit", function(event) {
-  event.preventDefault(); // Ngăn chặn việc gửi form
+  event.preventDefault();
 
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
@@ -51,35 +52,4 @@ document.getElementById("Form-register").addEventListener("submit", function(eve
     alert("Vui lòng điền đầy đủ thông tin đăng ký!");
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//   document.getElementById("Form-login").addEventListener("submit", function(event) {
-//   event.preventDefault();
-
-//   var username = document.getElementById("username").value;
-//   var password = document.getElementById("password").value;
-
-
-//   if (username.innerHTML === "" && password.innerHTML === "") {
-//     alert("Đăng ký thành công!");
-
-//     window.location.href = "trangchu-dangnhap.html";
-//   } else {
-//     alert("Vui lòng nhập thông tin đăng ký");
-//   }
-// });
 </script>
